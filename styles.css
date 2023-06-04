@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #080808;
+  --white: #fefefe;
+  --gray: #565656;
+
+  --teal: #006060;
+  --violetred: #a2106d;
+  --orange: #ffa500;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  color: var(--black);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+}
+
+/* Code for exercise 01-navbar */
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: var(--black);
+}
+
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.navbar-list li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.navbar-list li a {
+  display: block;
+  padding: 30px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar-list li a:hover {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.main {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 414px) {
+  .navbar-list li a {
+    padding: 30px 75px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+  .navbar-list li a {
+    padding: 30px 25px;
+  }
+}
