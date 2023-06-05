@@ -123,6 +123,35 @@ section {
   margin-left: 10px;
 }
 
+/* projects */
+
+.projects-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.project1-div {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 2%;
+  background-color: var(--white);
+}
+
+.project2-div {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 2%;
+  background-color: var(--white);
+}
+
 /* form */
 
 form {
