@@ -42,7 +42,7 @@ const addProject = (projectName, projectDescription, projectLink) => {
   projectDiv.style.marginLeft = "auto";
   projectDiv.style.marginRight = "auto";
   projectDiv.style.width = "75%";
-  projectDiv.style.height = "450px";
+  projectDiv.style.height = "auto";
   projectDiv.style.border = "1px solid";
   projectDiv.style.borderRadius = "2%";
   projectDiv.style.backgroundColor = "var(--white)";
@@ -62,6 +62,7 @@ const addProject = (projectName, projectDescription, projectLink) => {
 
   link.style.marginLeft = "50px";
   link.style.marginRight = "50px";
+  link.style.paddingBottom = "10px";
 
   link.href = projectLink;
   link.textContent = projectLink;

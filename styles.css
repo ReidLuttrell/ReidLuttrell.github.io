@@ -101,7 +101,7 @@ section {
 
 .class-div {
   width: 40%;
-  height: 400px;
+  height: auto;
   border: 1px solid;
   border-radius: 2%;
   background-color: var(--white);
@@ -109,7 +109,7 @@ section {
 
 .skills-div {
   width: 40%;
-  height: 400px;
+  height: auto;
   border: 1px solid;
   border-radius: 2%;
   background-color: var(--white);
