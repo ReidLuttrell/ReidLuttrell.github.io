@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
 
   let buttons = document.querySelectorAll("[name=pronoun]");
 
-  let pronouns;
+  let pronouns = "";
 
   for (let button of Array.from(buttons)) {
     if (button.checked) {
@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
     }
   }
 
-  if (name.value == "" || email.value == "" || pronouns == "") {
+  if (name.value === "" || email.value === "" || pronouns === "") {
     alert("Please fill out the entire form before submission.");
   } else {
     console.group("========= Form Submission =========");
