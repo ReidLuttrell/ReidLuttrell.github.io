@@ -43,6 +43,8 @@ const addProject = (projectName, projectDescription, projectLink) => {
   projectDiv.style.marginRight = "auto";
   projectDiv.style.width = "75%";
   projectDiv.style.height = "auto";
+  projectDiv.style.paddingBottom = "20px";
+  projectDiv.style.boxSizing = "border-box";
   projectDiv.style.border = "1px solid";
   projectDiv.style.borderRadius = "2%";
   projectDiv.style.backgroundColor = "var(--white)";
@@ -74,6 +76,8 @@ const addProject = (projectName, projectDescription, projectLink) => {
   container.appendChild(projectDiv);
 
   projectSection.appendChild(container);
+
+  projectSection.style.paddingBottom = "10px";
 };
 
 addProject(
